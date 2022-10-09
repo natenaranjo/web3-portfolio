@@ -4,8 +4,8 @@ const nextConfig = {
   swcMinify: true,
   images: {
     loader: "imgix",
-    basePath: "",
-  }
+    basePath: "/web3-portfolio",
+    assetPrefix: "/web3-portfolio",
 }
 
 module.exports = nextConfig
