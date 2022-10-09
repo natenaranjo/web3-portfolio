@@ -4,9 +4,10 @@ const nextConfig = {
   swcMinify: true,
   images: {
     loader: "vercel",
-    basePath: "",
-    assetPrefix: "",
-  }
+    path: "",
+  },
+    basePath: "/web3-portfolio",
+    assetPrefix: "/web3-portfolio",
 }
 
 module.exports = nextConfig
