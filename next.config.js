@@ -5,7 +5,8 @@ const nextConfig = {
   images: {
     loader: "imgix",
     basePath: "/web3-portfolio",
-    assetPrefix: "/web3-portfolio",
+    assetPrefix: "/web3-portfolio"
+  }
 }
 
 module.exports = nextConfig
