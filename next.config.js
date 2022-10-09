@@ -4,8 +4,8 @@ const nextConfig = {
   swcMinify: true,
   images: {
     loader: "vercel",
-    basePath: "",
-    assetPrefix: ""
+    basePath: "/web3-portfolio",
+    assetPrefix: "/web3-portfolio",
   }
 }
 
