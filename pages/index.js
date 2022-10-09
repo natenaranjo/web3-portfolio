@@ -17,7 +17,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel='stylesheet' href='/assets/styles/global.css' />
       </Head>
-      <Navbar />
       <Main />
       <About />
       <Skills />
