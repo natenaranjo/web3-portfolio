@@ -1,12 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import weatherImg from '../public/assets/projects/weathertracker.png';
-import moonImg from '../public/assets/projects/2damoon.png';
-import auraImg from '../public/assets/projects/aura.png';
-import netflixImg from '../public/assets/projects/netflix.jpg';
-import twitchImg from '../public/assets/projects/twitch.jpg';
+import weatherImg from './assets/projects/weathertracker.png';
+import moonImg from './assets/projects/2damoon.png';
+import auraImg from './assets/projects/aura.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
