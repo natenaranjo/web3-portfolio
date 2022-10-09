@@ -27,7 +27,7 @@ const weather = () => {
                 <p>Project</p>
                 <h2 className='py-2'>Overview</h2>
                 <p>
-                    Using Third-party API's to develop a weather dashboard app. An app that allows a traveler to see the weather for multiple cities.
+                    Using Third-party API&#39;s to develop a weather dashboard app. An app that allows a traveler to see the weather for multiple cities.
                 </p>
 
                 <br />
