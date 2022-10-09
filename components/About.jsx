@@ -15,7 +15,7 @@ const About = () => {
                     Building a couple small business websites on wordpress back in the late 2000&#39;s for mom and pop shops around town. 
                 </p>
                 <p className='text-xl py-2 text-gray-600'>
-                    Fascinated with how intricate programming can be I was quickly drawn to learn more. I started learning C++ to learn to develop my own games. Starting out freelancing for guilds in the gaming community, I am now spending time learning web3 development to prepare for the future of the web.
+                    Fascinated with how intricate programming can be I was quickly drawn to learn more. I&#39;ve always been excited about programming. Starting out freelancing for guilds in the gaming community, I am now spending time learning web3 development to prepare for the future of the web.
                 </p>
                 <Link href='/#projects'>
                     <p className='text-xl py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p>
