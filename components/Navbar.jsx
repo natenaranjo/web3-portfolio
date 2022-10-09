@@ -6,7 +6,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
-import NavLogo from '/../assets/navLogo.png'
+import NavLogo from '/..public/assets/navLogo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -18,10 +18,9 @@ const Navbar = () => {
 
   useEffect(() => {
     if (
-      router.asPath === '/property' ||
-      router.asPath === '/crypto' ||
-      router.asPath === '/netflix' ||
-      router.asPath === '/twitch'
+      router.asPath === '/moon' ||
+      router.asPath === '/weather' ||
+      router.asPath === '/arua'
     ) {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');
