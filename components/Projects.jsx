@@ -2,7 +2,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg';
+import weatherImg from '../public/assets/projects/weathertracker.png';
+import moonImg from '../public/assets/projects/2damoon.png';
+import auraImg from '../public/assets/projects/aura.png';
 import netflixImg from '../public/assets/projects/netflix.jpg';
 import twitchImg from '../public/assets/projects/twitch.jpg';
 import ProjectItem from './ProjectItem';
@@ -16,24 +18,19 @@ const Projects = () => {
             <div className='grid md:grid-cols-2 gap-8'>
 
                 <ProjectItem 
-                    title='Property Finder' 
-                    backgroundImg={propertyImg} 
-                    projectUrl='/property' 
+                    title='Weather Tracker' 
+                    backgroundImg={weatherImg} 
+                    projectUrl='/weather' 
                 />
                 <ProjectItem 
-                    title='Crypto App' 
-                    backgroundImg={cryptoImg} 
-                    projectUrl='/crypto' 
+                    title='2 Da Moon Recipes' 
+                    backgroundImg={moonImg} 
+                    projectUrl='/moon' 
                 />
                 <ProjectItem 
-                    title='Netflix' 
-                    backgroundImg={netflixImg} 
-                    projectUrl='/netflix' 
-                />
-                <ProjectItem 
-                    title='Twitch' 
-                    backgroundImg={twitchImg} 
-                    projectUrl='/twitch' 
+                    title='Aura' 
+                    backgroundImg={auraImg} 
+                    projectUrl='/aura' 
                 />
                 
             </div>

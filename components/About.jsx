@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const About = () => {
@@ -15,7 +16,9 @@ const About = () => {
                 <p className='text-xl py-2 text-gray-600'>
                     Fascinated with how intricate programming can be I was quickly drawn to learn more. I started learning C++ to learn to develop my own games. Starting out freelancing for guilds in the gaming community, I am now spending time learning web3 development to prepare for the future of the web.
                 </p>
-                <p className='text-xl py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p>
+                <Link href='/#projects'>
+                    <p className='text-xl py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p>
+                </Link>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                 <img className='rounded-xl' src='/assets/about.png' alt='/' />
