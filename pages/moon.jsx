@@ -32,7 +32,7 @@ const moon = () => {
                 <li>CSS Framework other than Bootstrap</li>
                 <li>Deployed to Github Pages</li>
                 <li>Be Interactive</li>
-                <li>Use at least two API's</li>
+                <li>Use at least two API&#39;s</li>
                 <br />
                 <a 
                     href='https://natenaranjo.github.io/2damoon/'

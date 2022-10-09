@@ -37,7 +37,7 @@ const aura = () => {
                 <br />
                 <h3>Challenges</h3>
                 <p>
-                    Managing the usage of unfimiliar frameworks and API complicated the developement process. There was a necessary learing curve that needed to happen to be able to use the additional resources we chose to use effectively. Deployment requiered a lot more of managing errors which required very clear communication among the team as there was a lot of individual pieces that needed to be managed. We needed conssitency when naming thins such as proper id's for correct routing and managing pushes on the repo to avoid potential issues down the line.
+                    Managing the usage of unfimiliar frameworks and API complicated the developement process. There was a necessary learing curve that needed to happen to be able to use the additional resources we chose to use effectively. Deployment requiered a lot more of managing errors which required very clear communication among the team as there was a lot of individual pieces that needed to be managed. We needed conssitency when naming thins such as proper id&#39;s for correct routing and managing pushes on the repo to avoid potential issues down the line.
                 </p>
                 <br />
                 <h3>Future Iterations</h3>
