@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    loader: "imgix",
+    loader: "vercel",
     basePath: "/web3-portfolio",
     assetPrefix: "/web3-portfolio",
   }
