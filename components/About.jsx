@@ -9,7 +9,7 @@ const About = () => {
             <div className="col-span-2">
                 <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                 <h2 className='py-4'>Who I am</h2>
-                <p className='text-xl py-2 text-gray-600'>&#47&#47 I am not your normal developer</p>
+                <p className='text-xl py-2 text-gray-600'>// I am not your normal developer</p>
                 <p className='text-xl py-2 text-gray-600'>
                     I have spent the last 10 years in the industrial industry as a coordinator for turnaround and maintenance for various refineries and power plants.  I have always had a knack for technology and working with computers.  I started off in 2006 working with HTML & CSS building gaming sites and local wikipedia&#39;s for dungeon & dragon groups for campaign stories.
                     Building a couple small business websites on wordpress back in the late 2000&#39;s for mom and pop shops around town. 
