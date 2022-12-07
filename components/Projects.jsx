@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import peaceImg from '../public/assets/projects/peace.png'
 import weatherImg from '../public/assets/projects/weathertracker.png';
 import moonImg from '../public/assets/projects/2damoon.png';
 import auraImg from '../public/assets/projects/aura.png';
@@ -14,6 +15,11 @@ const Projects = () => {
             <h2 className='py-4'>What I&#39;ve Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
 
+                <ProjectItem 
+                    title='Peace of Mind v2' 
+                    backgroundImg={peaceImg} 
+                    projectUrl='/peace' 
+                />
                 <ProjectItem 
                     title='Weather Tracker' 
                     backgroundImg={weatherImg} 
